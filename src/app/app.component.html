@@ -1,0 +1,24 @@
+<div id="layout-wrapper">
+
+  <header id="page-topbar">
+    <app-header></app-header>
+  </header>
+
+  <div class="vertical-menu">
+    <app-menu-bar></app-menu-bar>
+  </div>
+
+  <div class="main-content">
+    <div class="page-content">
+      <div class="container-fluid">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <app-footer></app-footer>
+    </div>
+  </footer>
+</div>
